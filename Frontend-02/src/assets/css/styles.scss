@@ -1,0 +1,40 @@
+// add global styles
+
+$primaryColor: red;
+$secondaryColor: green;
+
+// TASK:01: add style to contain the main page in 1200 px maximum wide
+// TASK:01: add body font, use google fonts to choose a font
+body {
+  max-width: 1200px;
+  margin-inline: auto;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem;
+}
+
+.left-aligned-container {
+  display: flex;
+  gap: 1rem;
+}
+
+nav {
+  ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+}
+
+
+// TASK:02 turn these into sass variables
+.red {
+  color: $primaryColor;
+}
+.green {
+  color: $secondaryColor;
+}

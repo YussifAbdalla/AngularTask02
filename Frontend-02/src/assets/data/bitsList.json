@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Espresso",
+        "description": "A full-flavored, concentrated form of coffee served in small, strong shots. It is the base for many other coffee drinks."
+    },
+    {
+        "name": "Americano",
+        "description": "A coffee drink made by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee."
+    },
+    {
+        "name": "Latte",
+        "description": "A coffee drink made with espresso and steamed milk. It typically has a thin layer of foam on top."
+    },
+    {
+        "name": "Cappuccino",
+        "description": "A coffee-based drink made with equal parts espresso, steamed milk, and milk foam. Often topped with cinnamon or cocoa powder."
+    },
+    {
+        "name": "Macchiato",
+        "description": "An espresso with a small amount of steamed milk and foam on top. The term 'macchiato' means 'stained' or 'spotted' in Italian."
+    },
+    {
+        "name": "Mocha",
+        "description": "A chocolate-flavored variant of a latte, made with espresso, steamed milk, and chocolate syrup or cocoa powder, often topped with whipped cream."
+    },
+    {
+        "name": "Flat White",
+        "description": "A coffee drink consisting of espresso with microfoam (steamed milk with small, fine bubbles) and a velvety consistency."
+    },
+    {
+        "name": "Affogato",
+        "description": "A coffee-based dessert made by pouring a shot of hot espresso over a scoop of vanilla ice cream."
+    },
+    {
+        "name": "Cortado",
+        "description": "An espresso cut with a small amount of warm milk to reduce the acidity. The ratio of coffee to milk is generally 1:1."
+    },
+    {
+        "name": "Ristretto",
+        "description": "A more concentrated version of an espresso, using the same amount of coffee but half the amount of water. It is stronger and more intense in flavor."
+    },
+    {
+        "name": "Doppio",
+        "description": "A double shot of espresso, typically served in a demitasse cup. It is stronger than a single shot of espresso."
+    },
+    {
+        "name": "Lungo",
+        "description": "A 'long' espresso made by using more water than usual. It results in a milder and less concentrated coffee."
+    },
+    {
+        "name": "Red Eye",
+        "description": "A strong coffee drink made by adding a shot of espresso to a cup of regular brewed coffee."
+    },
+    {
+        "name": "Irish Coffee",
+        "description": "A cocktail consisting of hot coffee, Irish whiskey, and sugar, stirred, and topped with cream."
+    },
+    {
+        "name": "Turkish Coffee",
+        "description": "A traditional coffee preparation method where finely ground coffee beans are simmered in water (often with sugar) and served unfiltered, resulting in a strong and thick brew."
+    }
+]
