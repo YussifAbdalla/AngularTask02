@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { BitDetailsComponent } from '../components/bit/details/details/details.component';
-import { BitListComponent } from '../components/bit/list/list.component';
+import { BitDetailsComponent } from '../components/bit/details.component';
+import { BitListComponent } from '../components/bit/list.component';
 // **gulpimport**
 
 export const BitRoutes: Routes = [
@@ -10,7 +10,7 @@ export const BitRoutes: Routes = [
     component: BitListComponent
   }, 
   {
-    path:'details',
+    path:':id',
     component: BitDetailsComponent,
   }
 ];

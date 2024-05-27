@@ -1,0 +1,11 @@
+<div class="page">
+    <div class="container">
+        @if(bits$ | async; as bits){
+          <ul>
+            @for(bit of bits; track $index){
+              <li><a routerLink="/bits/{{bit.id}}">{{bit.name}}</a></li>
+            }
+          </ul>
+        }
+    </div>
+</div>

@@ -1,4 +1,4 @@
-import { Routes, provideRouter } from '@angular/router';
+import { Routes, provideRouter, withComponentInputBinding } from '@angular/router';
 
 // TASK:01: add routes for bits and pieces. Each route refers to a list component that lists dummy data
 // lazy load the routes
@@ -16,4 +16,4 @@ const routes: Routes = [
   }
 ];
 
-export const AppRoutingProvider = [provideRouter(routes)];
+export const AppRoutingProvider = [provideRouter(routes, withComponentInputBinding())];

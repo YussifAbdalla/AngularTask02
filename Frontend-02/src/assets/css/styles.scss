@@ -12,10 +12,6 @@ body {
   padding: 1rem;
 }
 
-.left-aligned-container {
-  display: flex;
-  gap: 1rem;
-}
 
 nav {
   ul {
@@ -27,6 +23,9 @@ nav {
     justify-content: space-between;
     padding: 1rem;
     background-color: #f8f9fa;
+  }
+  .nav-right {
+    margin-inline-start: auto;
   }
 }
 

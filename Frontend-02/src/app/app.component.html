@@ -9,15 +9,11 @@
 
       <ul>
         <!-- TASK:02 add another link for Account profile, aligned to the right. Without any links -->
-        <div class="left-aligned-container">
           <li><a routerLink="/">Home</a></li>
           <!-- TASK:01: link to /bits and /pieces-->
           <li><a routerLink="/bits">Bits</a></li>
           <li><a routerLink="/pieces">Pieces</a></li>
-        </div>
-        <div class="right-aligned-container">
-          <li>Account profile</li>
-        </div>
+          <li class="nav-right">Account profile</li>
       </ul>
     </nav>
 
@@ -25,7 +21,7 @@
     <!-- TASK:01 add a message here, if time is < 12:00 show Good morning, else show Good afternoon. Make it green with first message, red with second message-->
     <div [class.green]="greeting.isMorning" [class.red]="!greeting.isMorning">{{ greeting.message }}</div>
 
-    <dm-message [message]="greeting.message"></dm-message>
+    <dm-message></dm-message>
 
   </div>
 </main>

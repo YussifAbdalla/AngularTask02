@@ -1,0 +1,11 @@
+<div class="page">
+    <div class="container">
+      @if(pieces$ | async; as pieces){
+        <ul>
+          @for(piece of pieces; track $index){
+            <li><a routerLink="/pieces/{{piece.id}}">{{piece.name}}</a></li>
+          }
+        </ul>
+      }
+    </div>
+</div>

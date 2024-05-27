@@ -1,0 +1,29 @@
+import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
+import { Ipiece } from './piece.model';
+
+const tempPieces = [
+  { id: '04b79f11-6e6b-4b33-a20b-0cb3096c5684', name: 'chunk' },
+  { id: 'acd22a61-ac34-41b3-8fb1-d375a473e214', name: 'bite' },
+  { id: 'd38a8108-be3a-4543-bb22-65763ccc3d2b', name: 'spoon' },
+  { id: '83f8b21c-acd9-42e1-aee3-480a3dfa68f5', name: 'pile' },
+]
+
+@Injectable({
+  providedIn: 'root'
+})
+
+export class PiecesService {
+
+  constructor() { 
+    
+  }
+
+  GetPieces(): Observable<Ipiece[]> {
+    return of(tempPieces);
+  }
+
+  GetPiece(id: string): Observable<Ipiece | undefined> {
+    return of(tempPieces.find(n => n.id === id));
+  }
+}
